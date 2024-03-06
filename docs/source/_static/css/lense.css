@@ -1,0 +1,70 @@
+.wy-menu-vertical p.caption{
+	color: rgb(255, 150, 10); 	/* IOGS Orange */
+}
+
+.wy-side-nav-search{
+	color: rgb(10, 50, 80);		/* IOGS Violet */
+	background-color: white;
+}
+.wy-side-nav-search>a{
+	color: rgb(10, 50, 80);
+}
+
+
+/* Titles and paragraphs */
+h1{
+	background: rgb(10, 50, 80);
+	color: white;
+	margin-left: -40px;
+	padding: 5px 10px 5px 20px;
+	font-size: 175%;
+}
+
+h2{
+	background: rgba(10, 50, 80, 0.8);
+	color: white;
+	font-size: 150%;
+	margin-left: -10px;
+}
+h2::before {
+  content: '> ';
+}
+
+h3{
+	background: rgba(10, 50, 80, 0.6);
+	color: white;
+	font-size: 125%;
+	margin-left: -10px;
+}
+h3::before {
+  content: '>> ';
+}
+
+h4{
+	background: rgba(10, 50, 80, 0.2);
+	color: rgb(10, 50, 80);
+	font-size: 110%;
+	margin-left: -10px;
+}
+h4::before {
+  content: '>>> ';
+}
+
+/* Cautions */
+.rst-content .caution{
+	background: rgba(255, 150, 10, 0.4);
+}
+
+.rst-content .caution .admonition-title{
+	background: rgb(255, 150, 10);
+}
+
+/* Notes */
+.rst-content .note{
+	background: rgba(10, 50, 80, 0.2);
+	color: rgb(10, 50, 80);
+}
+
+.rst-content .note .admonition-title{
+	background: rgb(10, 50, 80, 0.9);
+}

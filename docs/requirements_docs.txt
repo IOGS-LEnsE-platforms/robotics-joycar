@@ -1,0 +1,14 @@
+# These packages are to be installed with pip, with the following command:
+# pip install -r requirements.txt
+
+# To build documentation
+sphinx
+sphinx_rtd_theme
+sphinx-design
+sphinx-copybutton
+sphinx-automodapi
+sphinx-favicon
+sphinx-autoapi
+sphinx-copybutton
+sphinx-automodapi
+linuxdoc
