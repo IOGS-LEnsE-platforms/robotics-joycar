@@ -43,7 +43,7 @@
 
 /* Titles and paragraphs */
 h1{
-	background: var(--background); 
+	background: var(--platforms); 
 	color: white;
 	margin-left: -40px;
 	padding: 5px 10px 10px 20px;
