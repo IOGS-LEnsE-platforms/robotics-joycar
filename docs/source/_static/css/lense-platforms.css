@@ -1,0 +1,115 @@
+:root {
+  --iogs-orange: rgb(255, 150, 10);
+  --iogs-violet: rgb(10, 50, 80);
+  --iogs-violet-light: rgba(10, 50, 80, 0.2);
+  --platforms: rgb(11, 43, 82);	
+  --platforms-light: rgba(11, 43, 82, 0.7);	
+  --ressources: rgb(217, 128, 78);
+  --ressources-light: rgba(217, 128, 78, 0.8);
+  --training: rgb(52, 162, 189);	
+  --training-light: rgba(52, 162, 189, 0.8);
+  --procedures: rgb(47, 167, 96);
+  --procedures-light: rgba(47, 167, 96, 0.8);
+}
+
+  /*<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACa0lEQVR4nO2ZsXITMRCGlQTXKWM3TmVMRZyhC21egRLT0ZD3IC9BGkLhIjQOaVPmAdKEuKC2GSiSs2kgH6PxZkYxd5JPd7roBv8zGmvksbS/tKtfu1Zqhf8EwC5wBtwCN8AXoKfqBOAZMOVf6LGuqguAz2L4ANiSpvsaJ6ouACZidNMYa8nYWNUBwBPDrVq1I8KcQB+4NmJCu1NTWtyuRTqBEZCkBHsSXbCTTkD338h3PeBUrl7dhsCOigXAOvAKuDIIfAPeagIqdiEDNmwnULU9qoCQjaokoCEbmOQWVoeQVUbgHhJXWfac+ArZtOoYwFdYjR+mCdnPCmx/AL2mxZ7xsq61KGR3wEegrQIDaMtadxZ7rK7VtQTXL+nrz/fAZgACmzK3udbUS1gzhOy57NKxsUvaDd8BjRIINGSuiXH6n4DtYMIKvADOjd35qgWywHz7wKUx3wXwsrChBQ3YK7ohwFpYy5d3iWNxw56o8K003d9JcdHvwEEZLlpWkB4aQTqzXBozI5APQ1waZV6bvy2K/EdOZFvFDuCHRZErF1ZvOF4Icae6OV4Icaa6lheCFq9F3ESX6roAdIAPxjWr+x1VVyBQdQePRYSSi89FieCZs/vlyIGIUCBn98uRwxEZetkTovhckMjEyx6HInsVH3yJMK+j+RXDHYrsVQ7KS4Q5gdeSn1B2zp74VhiXJZJBYORdDM/KkTMWchJyEbHM2w9aDM9bxM4iEk0xHMcJAU+BI+O7IxmznoB6LFh8O+v1ex0VgRy3TUvaIIXAhooVPLz/s4rh8RIwsUp1Y4NDWGuX6vai/ld3BRUWfwGqUsw0N+bN4AAAAABJRU5ErkJggg==">*/
+
+/* Left menu */
+.wy-nav-side{
+	background-color: black; 	
+}
+
+.wy-menu-vertical p.caption{
+	color: var(--iogs-orange);
+	font-weight: bold;
+	font-size: 100%;
+}
+
+.wy-side-nav-search{
+	color: white;			
+	background-color: var(--platforms);
+}
+
+.wy-side-nav-search>a img.logo{
+	background-color: white;
+	padding: 3px;
+	border-radius: 10px;
+}
+
+.wy-menu-vertical a{
+	color: white;
+	font-size: 100%;
+}
+
+/* Titles and paragraphs */
+h1{
+	background: var(--background); 
+	color: white;
+	margin-left: -40px;
+	padding: 5px 10px 10px 20px;
+	font-size: 175%;
+	border-radius: 10px;
+}
+
+h2{
+	background: rgba(10, 50, 80, 0.8);
+	color: white;
+	font-size: 150%;
+	margin-left: -10px;
+	border-radius: 5px;
+	padding: 5px 0px 5px 0px; 
+}
+h2::before {
+	font-family: "Font Awesome 5 Free";
+	content: "\00a0 \f1b2 \00a0\00a0";
+}
+
+h3{
+	background: rgba(10, 50, 80, 0.6);
+	color: white;
+	font-size: 125%;
+	margin-left: -10px;
+	border-radius: 3px;
+	padding: 2px 0px 2px 0px; 
+}
+h3::before {
+	font-family: "Font Awesome 5 Free";
+	content: "\00a0\00a0 \f101 \00a0";
+}
+
+h4{
+	background: rgba(10, 50, 80, 0.2);
+	color: rgb(10, 50, 80);
+	font-size: 110%;
+	margin-left: -10px;
+	border-radius: 2px;
+	padding: 2px 0px 2px 0px; 
+}
+h4::before {
+	font-family: "Font Awesome 5 Free";
+	content: "\00a0\00a0 \f105 \00a0";
+	padding-left: 20px;	
+}
+
+/* Cautions */
+.rst-content .warning{
+	background: rgba(255, 150, 10, 0.4);
+	border-radius: 10px;
+}
+
+.rst-content .warning .admonition-title{
+	background: var(--iogs-orange);
+	border-radius: 0px 10px 0px 0px;
+}
+
+/* Notes */
+.rst-content .note{
+	background: rgba(10, 50, 80, 0.2);
+	color: rgb(10, 50, 80);
+	border-radius: 10px;
+}
+
+.rst-content .note .admonition-title{
+	background: rgb(10, 50, 80, 0.9);
+	border-radius: 5px 10px 0px 0px;
+}

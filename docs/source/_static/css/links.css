@@ -1,0 +1,23 @@
+
+/* Link for GitHub */
+.linkgit { 
+	text-align: center;
+	display: inline;
+	vertical-align: middle;  }
+
+.linkgit .data { 
+	line-height: 1.2em; 
+	color: #666; }
+.linkgit  a {
+	text-decoration: none;
+	color: #1A3155;
+	border: solid 1px #1A3155;
+	border-radius: 10px;
+	padding: 2px 5px 2px 5px;
+	background: #cccccc;
+	transition: all 0.35s; }
+	
+.linkgit a:hover, .linkgit a.open { 
+	text-decoration: none; 
+	background: #1A3155;
+	color: white;	}

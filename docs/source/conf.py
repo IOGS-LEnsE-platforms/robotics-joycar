@@ -63,10 +63,11 @@ html_theme = 'sphinx_rtd_theme'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["_static"]
 
-html_logo = "_static/logo_lense.png"
+html_logo = "_static/assets/logo-platforms_git.png"
 
 html_css_files = [
-    'css/lense.css',
+    'css/lense-platforms.css',
+    'css/links.css'
 ]
 
 napoleon_google_docstring = False
