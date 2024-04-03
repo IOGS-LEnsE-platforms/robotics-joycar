@@ -67,7 +67,7 @@ html_logo = "_static/assets/logo-platforms_git.png"
 
 html_css_files = [
     'css/lense-platforms.css',
-    'css/links.css'
+    'css/links.css',		'https://iogs-lense.github.io/lense.tech/assets/css/fontawesome/css/all.css'
 ]
 
 napoleon_google_docstring = False
