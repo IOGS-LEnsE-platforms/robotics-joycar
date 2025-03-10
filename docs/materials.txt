@@ -1,0 +1,7 @@
+
+
+Line sensor : SEN-KY033LT  (Conrad - https://www.conrad.fr/fr/p/joy-it-sen-ky033lt-capteur-1-pc-s-convient-pour-kits-de-developpement-arduino-asus-tinker-board-bbc-micro-bit-ras-2306281.html )
+
+Servomotor - mini : https://www.conrad.fr/fr/p/reely-micro-servomoteur-s-0009-analogique-materiau-entrainement-plastique-systeme-de-connecteur-jr-2201970.html
+
+DC Motor driver : SN754410NE  (or L293D)
